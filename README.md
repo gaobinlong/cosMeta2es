@@ -1,0 +1,2 @@
+# cosMeta2es
+使用Serverless云函数把COS对象存储的元信息存储到ES中
