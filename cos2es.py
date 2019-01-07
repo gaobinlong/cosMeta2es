@@ -1,5 +1,5 @@
 # -*- coding: utf8 -*-
-#SCF配置COS触发，从COS获取文件上传信息，并下载到SCF的本地临时磁盘tmp
+#SCF配置COS触发，从COS获取文件上传信息，并同步meta信息到es中
 from qcloud_cos_v5 import CosConfig
 from qcloud_cos_v5 import CosS3Client
 from qcloud_cos_v5 import CosServiceError
